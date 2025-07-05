@@ -1,0 +1,18 @@
+[project]
+name = "climatact"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "haojunsng",email = "snghaojun18@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "fastapi[standard] (>=0.115.14,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
