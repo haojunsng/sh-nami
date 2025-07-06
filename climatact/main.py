@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from services.weather_service import get_weather_metrics
-from models.models import WeatherResponse
+from climatact.services.weather_service import get_weather_metrics
+from climatact.models.models import WeatherResponse
 
 app = FastAPI()
 
