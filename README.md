@@ -95,6 +95,6 @@ Shoutout to `OpenStreetMap`'s `Nominatim` service for generation of coordinates 
 - **OpenStreetMap Nominatim**: Geographic coordinate generation
 - **Singapore Towns Dataset**: [Comprehensive list of Singapore locations](https://www.worldcitydb.com/singapore_in_singapore_state)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
