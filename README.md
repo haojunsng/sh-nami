@@ -1,5 +1,9 @@
 # sh-nami
 
+<div align="center">
+  <img alt="image" src="assets/fastapi.jpg" />
+</div>
+
 A lightweight weather aggregation API that combines forecasts from multiple sources to help users decide whether to head out or stay in. Built with FastAPI and designed specifically for Singapore locations.
 
 ## Features
