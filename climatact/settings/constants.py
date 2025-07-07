@@ -1,1 +1,1 @@
-ALLOWED_IPS = ["127.0.0.1"]
+ALLOWED_IPS = [] # TODO: Change to Cloudflare IPs after setting up the adapter
