@@ -19,7 +19,7 @@ def create_app() -> FastAPI:
             raise HTTPException(status_code=401, detail="Invalid or missing API Key")
 
     @app.get("/weather", response_model=WeatherResponse, dependencies=[Depends(get_api_key)])
-    @app.state.limiter.limit("1/minute")
+    @app.state.limiter.limit("10/minute")
     async def get_weather(town: str, request: Request):
         response = await get_weather_metrics(town)
         return response
