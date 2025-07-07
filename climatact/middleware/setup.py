@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from climatact.middleware.ip_filter import IPFilterMiddleware
-# from climatact.middleware.logging import LoggingMiddleware
 from slowapi.middleware import SlowAPIMiddleware
 from slowapi import Limiter
 from slowapi.util import get_remote_address
