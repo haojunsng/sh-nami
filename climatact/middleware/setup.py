@@ -4,6 +4,8 @@ from slowapi.middleware import SlowAPIMiddleware
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from climatact.settings.constants import ALLOWED_IPS
+from climatact.middleware.logging import LoggingMiddleware
+
 
 def setup_middlewares(app: FastAPI):
 
@@ -12,3 +14,5 @@ def setup_middlewares(app: FastAPI):
     limiter = Limiter(key_func=get_remote_address)
     app.state.limiter = limiter
     app.add_middleware(SlowAPIMiddleware)
+
+    app.add_middleware(LoggingMiddleware)
