@@ -3,7 +3,7 @@
     "lat": 1.3308981,
     "lon": 103.8130156
   },
-  "adelphi park estate": {
+  "adelphi park": {
     "lat": 1.3554954,
     "lon": 103.8288822
   },
@@ -15,7 +15,7 @@
     "lat": 1.350246,
     "lon": 103.8837222
   },
-  "alexandra estate": {
+  "alexandra": {
     "lat": 1.2852455,
     "lon": 103.8055831
   },
@@ -51,11 +51,11 @@
     "lat": 1.3385504,
     "lon": 103.7058124
   },
-  "braddell heights estate": {
+  "braddell heights": {
     "lat": 1.3460203,
     "lon": 103.8671978
   },
-  "brickworks estate": {
+  "brickworks": {
     "lat": 1.2869332,
     "lon": 103.8075601
   },
@@ -87,7 +87,7 @@
     "lat": 1.3066096,
     "lon": 103.790751
   },
-  "caldecott hill estate": {
+  "caldecott hill": {
     "lat": 1.336164,
     "lon": 103.8334553
   },
@@ -99,7 +99,7 @@
     "lat": 1.3700592,
     "lon": 103.8034477
   },
-  "chai chee estate": {
+  "chai chee": {
     "lat": 1.3282426,
     "lon": 103.9171856
   },
@@ -107,7 +107,7 @@
     "lat": 1.3893721,
     "lon": 103.9887773
   },
-  "chia tong quah estate": {
+  "chia tong quah": {
     "lat": 1.4088551,
     "lon": 104.0485831
   },
@@ -127,7 +127,7 @@
     "lat": 1.3673043,
     "lon": 103.7714351
   },
-  "delta estate": {
+  "delta": {
     "lat": 1.2923524,
     "lon": 103.8288217
   },
@@ -143,7 +143,7 @@
     "lat": 1.2967779,
     "lon": 103.8279836
   },
-  "dunearn estate": {
+  "dunearn": {
     "lat": 1.3257142,
     "lon": 103.8241235
   },
@@ -179,11 +179,11 @@
     "lat": 1.3085088,
     "lon": 103.8179136
   },
-  "frankel estate": {
+  "frankel": {
     "lat": 1.3156647,
     "lon": 103.9187087
   },
-  "fuyong estate": {
+  "fuyong": {
     "lat": 1.3593461,
     "lon": 103.7684812
   },
@@ -263,7 +263,7 @@
     "lat": 1.3434392,
     "lon": 103.7058663
   },
-  "kaki bukit estate": {
+  "kaki bukit": {
     "lat": 1.3327498,
     "lon": 103.9045546
   },
@@ -347,7 +347,7 @@
     "lat": 1.2932225,
     "lon": 103.7844338
   },
-  "kilburn estate": {
+  "kilburn": {
     "lat": 1.3388444,
     "lon": 103.7843328
   },
@@ -359,7 +359,7 @@
     "lat": 1.3357025,
     "lon": 103.7835912
   },
-  "lam kiong estate": {
+  "lam kiong": {
     "lat": 1.3493242,
     "lon": 103.6537521
   },
@@ -379,7 +379,7 @@
     "lat": 1.4306489,
     "lon": 103.7185111
   },
-  "lim chu kang estate": {
+  "lim chu kang": {
     "lat": 1.4200312,
     "lon": 103.7025115
   },
@@ -419,7 +419,7 @@
     "lat": 1.4325704,
     "lon": 103.7741243
   },
-  "maryland estate": {
+  "maryland": {
     "lat": 1.3201791,
     "lon": 103.7859945
   },
@@ -479,7 +479,7 @@
     "lat": 1.3014901,
     "lon": 103.8261417
   },
-  "opera estate": {
+  "opera": {
     "lat": 1.3194313,
     "lon": 103.9241909
   },
@@ -535,7 +535,7 @@
     "lat": 1.3172518,
     "lon": 103.7891792
   },
-  "queenstown estate": {
+  "queenstown": {
     "lat": 1.3069448,
     "lon": 103.8000836
   },
@@ -575,7 +575,7 @@
     "lat": 1.2921434,
     "lon": 103.852638
   },
-  "sam heng estate": {
+  "sam heng": {
     "lat": 1.4142342,
     "lon": 103.9767808
   },
@@ -587,15 +587,15 @@
     "lat": 1.4098488,
     "lon": 103.8773789
   },
-  "seletar hills estate": {
+  "seletar hills": {
     "lat": 1.3844367,
     "lon": 103.8694825
   },
-  "sembawang estate": {
+  "sembawang": {
     "lat": 1.4405299,
     "lon": 103.8260733
   },
-  "sembawang hills estate": {
+  "sembawang hills": {
     "lat": 1.3736338,
     "lon": 103.8300727
   },
@@ -603,7 +603,7 @@
     "lat": 1.3826778,
     "lon": 103.7623822
   },
-  "sennett estate": {
+  "sennett": {
     "lat": 1.3320128,
     "lon": 103.8744534
   },
@@ -619,6 +619,10 @@
     "lat": 1.3696622,
     "lon": 103.8689838
   },
+  "serangoon stadium": {
+    "lat": 1.3561,
+    "lon": 103.8749
+  },
   "singapore": {
     "lat": 1.2899175,
     "lon": 103.8519072
@@ -627,7 +631,7 @@
     "lat": 1.3396411,
     "lon": 103.9636291
   },
-  "sommerville estate": {
+  "sommerville": {
     "lat": 1.3109265,
     "lon": 103.8067077
   },
@@ -639,7 +643,7 @@
     "lat": 1.4009325,
     "lon": 103.8190635
   },
-  "sungai unum estate": {
+  "sungai unum": {
     "lat": 1.4210393,
     "lon": 104.0493126
   },
@@ -651,11 +655,11 @@
     "lat": 1.3353828,
     "lon": 103.8883061
   },
-  "tampines estate": {
+  "tampines": {
     "lat": 1.3325151,
     "lon": 103.9613707
   },
-  "tan hua gek estate": {
+  "tan hua gek": {
     "lat": 1.4100772,
     "lon": 103.6983287
   },
@@ -675,7 +679,7 @@
     "lat": 1.2764189,
     "lon": 103.8429295
   },
-  "teacher's housing estate": {
+  "teacher's housing": {
     "lat": 1.3806806,
     "lon": 103.8292698
   },
@@ -703,15 +707,15 @@
     "lat": 1.3543184,
     "lon": 103.8343811
   },
-  "thomson ridge estate": {
+  "thomson ridge": {
     "lat": 1.3513848,
     "lon": 103.8317128
   },
-  "tiong bahru estate": {
+  "tiong bahru": {
     "lat": 1.2847974,
     "lon": 103.8321425
   },
-  "tiong guan estate": {
+  "tiong guan": {
     "lat": 1.2834152,
     "lon": 103.8308367
   },
@@ -731,7 +735,7 @@
     "lat": 1.319686,
     "lon": 103.8026423
   },
-  "watten estate": {
+  "watten": {
     "lat": 1.3302458,
     "lon": 103.8101397
   },
@@ -739,11 +743,11 @@
     "lat": 1.3267547,
     "lon": 103.808071
   },
-  "wessex estate": {
+  "wessex": {
     "lat": 1.297469,
     "lon": 103.7949789
   },
-  "windsor park estate": {
+  "windsor park": {
     "lat": 1.3575629,
     "lon": 103.8261572
   },
