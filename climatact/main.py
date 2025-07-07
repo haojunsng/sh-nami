@@ -5,9 +5,12 @@ from climatact.services.weather_service import get_weather_metrics
 from climatact.models.models import WeatherResponse
 from climatact.middleware.setup import setup_middlewares
 
-API_KEY = os.environ.get("API_KEY")
-API_KEY_NAME = "X-API-KEY"
-api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+try:
+    API_KEY = os.environ["API_KEY"]
+except KeyError as e:
+    raise RuntimeError("API_KEY environment variable is required but not found") from e
+
+api_key_header = APIKeyHeader(name="X-API-KEY", auto_error=False)
 
 def create_app() -> FastAPI:
     app = FastAPI()
