@@ -5,7 +5,7 @@ description = ""
 authors = [
     {name = "haojunsng",email = "snghaojun18@gmail.com"}
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.13, <4.0"
 dependencies = [
     "uvicorn (>=0.35.0,<0.36.0)",
     "fastapi[standard] (>=0.115.14,<0.116.0)",
@@ -13,7 +13,8 @@ dependencies = [
     "pandas (>=2.3.0,<3.0.0)",
     "tqdm (>=4.67.1,<5.0.0)",
     "openmeteo-requests (>=1.5.0,<2.0.0)",
-    "pydantic (>=2.11.7,<3.0.0)"
+    "pydantic (>=2.11.7,<3.0.0)",
+    "slowapi (>=0.1.9,<0.2.0)"
 ]
 
 
