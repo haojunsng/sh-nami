@@ -1,4 +1,5 @@
 import json
+from fastapi import HTTPException
 from pathlib import Path
 from typing import Optional, Dict
 
@@ -9,7 +10,8 @@ with open(DATA_PATH, "r") as f:
 
 def get_coordinates(town_name: str) -> Optional[Dict[str, float]]:
     coords = town_to_coords.get(town_name.strip().lower())
+    
     if coords:
         return coords
     else:
-        raise ValueError(f"The town '{town_name}' currently isn't supported.")
+        raise HTTPException(status_code=404, detail=f"The town '{town_name}' isn't currently supported.")
