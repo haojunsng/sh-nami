@@ -7,7 +7,7 @@ class IPFilterMiddleware(BaseHTTPMiddleware):
     def __init__(self, app, allowed_ips: list[str]):
         super().__init__(app)
         self.allowed_ips = allowed_ips
-        self.excluded_paths = ["/docs", "/openapi.json", "/redoc", "/"]
+        self.excluded_paths = ["/docs", "/openapi.json", "/redoc"]
 
     async def dispatch(self, request: Request, call_next):
         path = request.url.path
