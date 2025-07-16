@@ -271,69 +271,17 @@
     "lat": 1.310759,
     "lon": 103.866262
   },
-  "kampong amber": {
-    "lat": 1.3004536,
-    "lon": 103.8995923
-  },
   "kampong bahru": {
     "lat": 1.4175875,
     "lon": 103.9695481
   },
-  "kampong bugis": {
-    "lat": 1.3073239,
-    "lon": 103.866136
+  "bukit panjang": {
+    "lat": 1.3774,
+    "lon": 103.7719
   },
-  "kampong bukit panjang": {
-    "lat": 1.3456415,
-    "lon": 103.788154
-  },
-  "kampong chai chee": {
-    "lat": 1.3304941,
-    "lon": 103.9322592
-  },
-  "kampong changi": {
+  "changi": {
     "lat": 1.3897472,
     "lon": 103.9865698
-  },
-  "kampong eunos": {
-    "lat": 1.3190065,
-    "lon": 103.906497
-  },
-  "kampong ladang": {
-    "lat": 1.4155835,
-    "lon": 104.0314814
-  },
-  "kampong mamam": {
-    "lat": 1.4174946,
-    "lon": 103.9758261
-  },
-  "kampong melayu": {
-    "lat": 1.4091348,
-    "lon": 103.9810448
-  },
-  "kampong noordin": {
-    "lat": 1.4182291,
-    "lon": 103.96564
-  },
-  "kampong permatang": {
-    "lat": 1.4155835,
-    "lon": 104.0314814
-  },
-  "kampong salabin": {
-    "lat": 1.4155835,
-    "lon": 104.0314814
-  },
-  "kampong sultan": {
-    "lat": 1.3028651,
-    "lon": 103.8598269
-  },
-  "kampong teban": {
-    "lat": 1.3808239,
-    "lon": 103.910521
-  },
-  "kampong telok": {
-    "lat": 1.2667088,
-    "lon": 103.8242874
   },
   "kampong ubi": {
     "lat": 1.3299354,
@@ -378,10 +326,6 @@
   "lim chu kang": {
     "lat": 1.4306489,
     "lon": 103.7185111
-  },
-  "lim chu kang": {
-    "lat": 1.4200312,
-    "lon": 103.7025115
   },
   "lower delta road": {
     "lat": 1.2786423,
@@ -778,5 +722,33 @@
   "yio chu kang": {
     "lat": 1.3817905,
     "lon": 103.8449359
+  },
+  "sengkang": {
+    "lat": 1.3868,
+    "lon": 103.8914
+  },
+  "jelapang": {
+    "lat": "1.3867",
+    "lon": "103.7645"
+  },
+  "soo teck": {
+    "lat": "1.4053",
+    "lon": "103.8973"
+  },
+  "woodleigh": {
+    "lat": "1.3388",
+    "lon": "103.8705"
+  },
+  "bishan": {
+    "lat": "1.3526",
+    "lon": "103.8352"
+  },
+  "pasir ris": {
+    "lat": "1.3721",
+    "lon": "103.9474"
+  },
+  "bukit batok": {
+    "lat": "1.3590",
+    "lon": "103.7637"
   }
 }

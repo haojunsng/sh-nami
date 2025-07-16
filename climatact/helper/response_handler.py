@@ -1,6 +1,6 @@
 import json
 from operator import itemgetter
-from climatact.models.models import TomorrowMetrics, GoogleMetrics, WeatherResponse
+from climatact.models.models import TomorrowMetrics, GoogleMetrics, OpenmeteoMetrics, WeatherResponse
 
 def tomorrow_handler(response):
     text = json.loads(response.text)
@@ -26,11 +26,24 @@ def google_handler(response):
         temperature=temperature
     )
 
-def handler(town, tomorrow_response, google_response):
+def openmeteo_handler(response):
+    text = json.loads(response.text)
+    temperature = text.get("current_weather").get("temperature")
+    weathercode = text.get("current_weather").get("weathercode")
+    windspeed = text.get("current_weather").get("windspeed")
+    return OpenmeteoMetrics(
+        temperature=temperature,
+        weathercode=weathercode,
+        windspeed=windspeed
+    )
+
+def handler(town, tomorrow_response, google_response, openmeteo_response):
     tomorrow_metrics = tomorrow_handler(tomorrow_response)
     google_metrics = google_handler(google_response)
+    openmeteo_metrics = openmeteo_handler(openmeteo_response)
     return WeatherResponse(
         town=town,
         tomorrow_io=tomorrow_metrics,
-        google=google_metrics
+        google=google_metrics,
+        openmeteo=openmeteo_metrics
     )

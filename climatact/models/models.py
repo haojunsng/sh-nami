@@ -14,8 +14,13 @@ class GoogleMetrics(BaseModel):
     precipitationProbability: float = Field(..., description="Chance of Rain in %")
     temperature: float = Field(..., description="Temperature in Celsius")
 
+class OpenmeteoMetrics(BaseModel):
+    temperature: float = Field(..., description="Temperature in Celcius")
+    weathercode: int = Field(..., description="World Meteorological Organisation Weather Code")
+    windspeed: float = Field(..., description="Speed of Wind in km/h")
 
 class WeatherResponse(BaseModel):
     town: str = Field(..., description="Name of the Requested Town")
     tomorrow_io: TomorrowMetrics = Field(..., description="Weather metrics from Tomorrow.io API")
     google: GoogleMetrics = Field(..., description="Weather metrics from Google Weather API")
+    openmeteo: OpenmeteoMetrics = Field(..., description="Weather metrics from Openmeteo API")
